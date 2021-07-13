@@ -1,10 +1,10 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
 import { Box } from '../src/components/Box';
 import { MainGrid } from '../src/components/MainGrid';
 import { AlurakutMenu, OrkutNostalgicIconSet } from '../src/libs/AlurakutCommons';
 import { ProfileRelationsBoxWrapper } from '../src/components/ProfileRelations';
 
+// eslint-disable-next-line react/prop-types
 function ProfileSidebar({ githubUser }) {
   return (
     <Box>
