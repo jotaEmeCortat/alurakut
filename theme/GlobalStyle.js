@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     background-color: #D9E6F6;
+    font-family: 'Rubik';
   }
   h1, h2, p {
     margin: 0;

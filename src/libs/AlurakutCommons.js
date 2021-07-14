@@ -258,7 +258,7 @@ export function OrkutNostalgicIconSet(props) {
           </span>
           <span className="OrkutNostalgicIconSet__number" style={{ gridArea: 'number' }}>
             <img alt="icon" key={`orkut__icon_set__${slug}_img`} className="OrkutNostalgicIconSet__iconSample" src={`https://alurakut.vercel.app/icons/${icon}.svg`} />
-            {props[slug] ? props[slug] : 0}
+            {props[slug] ? props[slug] : 2}
           </span>
         </li>
       ))}
